@@ -1,12 +1,17 @@
 # Contributing
-We'd love to work with you and accept your contributions. For small changes like bug fixes, typos, etc. Please Fork us and submit a pull request with the details of what you have changed.
 
-For larger changes, we ask you to electronically sign a statement that indicates two things:
+Contributions are welcome but please understand the nature of this fork first.
 
-* You are willingly licensing your contributions under the terms of the open source license of the project that you're contributing to.
+This is a personal learning project — I don't have the experience yet to 
+review pull requests, manage issues, or debug other people's problems.
 
-* You are legally able to license your contributions as stated.
+**What you're welcome to do:**
+- Fork this repo and take it in your own direction
+- Use anything here to support your own community builds
+- Open issues to share findings or discoveries (but I may not be able to fix them)
 
-This is called a Contributor Licence Agreement or "CLA" for short.
+If this work helps you build something better for the community, great — 
+that's the whole point.
 
-The standard licence for Xibo is the [AGPLv3](LICENSE). For more information please see [CONTRIBUTING](https://github.com/xibosignage/xibo/blob/master/CONTRIBUTING.md).
+For proper support and contributions to the main project please visit 
+[xibosignage/xibo-linux](https://github.com/xibosignage/xibo-linux).
