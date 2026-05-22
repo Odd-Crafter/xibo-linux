@@ -1,12 +1,17 @@
-# Xibo for Linux
+# Xibo for Linux (Fork)
 [![xibo-player](https://snapcraft.io/xibo-player/badge.svg)](https://snapcraft.io/xibo-player)
 
 Xibo for Linux is a Digital Signage Player for [Xibo](https://xibo.org.uk).
 
-It is in its early stages of development and supports a subset of Xibo's overall features. It can be used in production, but should be thoroughly tested with the intended content. It is not recommended to assume that any of Xibo's features will function. Please test yourself to confirm.
+> **Note:** This is a personal fork focused on getting Xibo running on 
+> modern hardware with GNOME Wayland on Fedora Workstation. 
+> You are welcome to use or build on this code freely, but this is not 
+> an actively maintained fork — no issues or pull requests are being managed.
+> Treat this as experimental work in progress, not a supported release.
 
-To discuss this Player with us, please [join our community](https://community.xibo.org.uk/c/support/linux-player).
 
+For help, guides, or support please visit the official Xibo community:
+ [join our community](https://community.xibo.org.uk/c/support/linux-player).
 
 
 # Installation
@@ -14,29 +19,19 @@ To discuss this Player with us, please [join our community](https://community.xi
 Installation and upgrade instructions can be found [here](https://xibo.org.uk/docs/setup/xibo-for-linux-installation).
 
 
-
-# Contributing
-
-We use GitHub Issues to track development and the next milestone is full of issues for which we would happily accept contributions. In addition, if a Xibo feature you want is not mile-stoned, or mile-stoned against a later version, please get in touch if you'd like to work on it. We maintain a [Kanban Board](https://github.com/xibosignage/xibo-linux/projects/1) to ensure we're not doing overlapping work.
-
-Please check that you're happy for your work to be available under the project licence - the AGPLv3 or later.
-
-Let us know you'd like to contribute by [joining our community](https://community.xibo.org.uk/c/support/linux-player).
+## Goal
+Get Xibo running natively on GNOME Wayland on modern Fedora hardware.
+This is a long term project driven by learning as much as fixing.
 
 
-# Build
-If you would like to work on the Player you can build it locally using the instructions below.
+## Test Environment
+- Fedora Workstation (latest)
+- GNOME on Wayland
 
-## Building from sources
-We recommend you use snapcraft to build Xibo.
 
-### Building with Snapcraft
-
-- Install snapcraft, making sure you have version 4 or later (`snap install snapcraft --classic`)
+### Building from source
 - Clone this repository
-- Run `snapcraft` in the root of the repository
-- A `.snap` file will be created which you can use to install from
-
+- Run `cmake` in the root of the repository
 
 # Debugging
 We provide a VSCode dev container that has everything needed to build/debug the application using VSCode. This devcontainer uses a base image which is built from the `Dockerfile` in the root folder.
